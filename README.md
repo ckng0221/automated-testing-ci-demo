@@ -1,3 +1,10 @@
+Before merge into the `main` branch, should create a feature branch, and then perform a `pull request`.
+
+GitHub Actions will be triggered to run `pytest`, to check if all tests passed.
+
+Merge to the `main` branch will be done after approval.
+
+---
 To run test cases locally:
 
 Install `pytest`, id don't have
