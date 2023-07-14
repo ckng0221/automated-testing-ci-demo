@@ -14,6 +14,12 @@ def test_calculate_sphere_volume():
     # should be around 137.26
     assert pytest.approx(area, 0.01) == 137.26
 
+def test_calculate_sphere_volume2():
+    radius = 3
+    area = calculate_sphere_volume(radius)
+    # should be around 137.26
+    assert pytest.approx(area, 0.01) == 113.1
+
 
     
 # To test, run:
