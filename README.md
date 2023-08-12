@@ -1,3 +1,5 @@
+![CI workflow](https://github.com/ckng0221/automated-testing-ci-demo/actions/workflows/ci.yml/badge.svg)
+
 Before merge into the `main` branch, should create a feature branch, and then perform a `pull request`.
 
 GitHub Actions will be triggered to run `pytest`, to check if all tests passed.
